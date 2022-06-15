@@ -1,0 +1,14 @@
+{
+  "name": "01.typescript-start",
+  "version": "1.0.0",
+  "description": "typescript 初体验",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts"
+  },
+  "author": "八云家的记事簿",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

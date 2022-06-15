@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@types/node": "^17.0.42",
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
+  },
+  "name": "05.typescript-statistics-case",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
