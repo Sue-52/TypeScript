@@ -1,45 +1,29 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
+  return(
+      <div>
+        <h1>App Page</h1>
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
-    </div>
+        {/* Hello 组件 */}
+        {/* <Hello greet={"Hello TypeScript"} onClick={()=>alert("clicked")} /> */}
+        {/* Status 组件（元组） */}
+        {/* <Status status={"loading..."} /> */}
+        {/* Oscar 组件 传输组件 */}
+        {/* <Oscar greet={"hello"}>
+          <div>Oscar</div>
+        </Oscar> */}
+        {/* Container 组件 */}
+        {/* <Container styles={{width:200,height:200,border:'10px solid #ccc'}} /> */}
+        {/* List 组件 */}
+        {/* <List<string> items={["a","b","c"]} />
+        <List<number> items={[1,2,3,4,5]} /> */}
+
+        {/* state */}
+        {/* <Guest /> */}
+        {/* <Search /> */}
+        {/* <Counter /> */}
+      </div>
   )
 }
 
-export default App
+
+export default App;
