@@ -1,0 +1,13 @@
+使用装饰器和元数据重构 Express 语法。
+
+@controller("/auth")
+class LoginController {
+  @get("/login")
+  getLogin() {
+    return "<form></form>";
+  }
+  @post("/login")
+  @validateBody("username", "password")
+  @use(requireAuth)
+  postLogin() {}
+}
